@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="inicio">
+        <p class="subtitulo">Hola 👋, soy</p>
+        <h1 class="titulo-principal">Eusebio Fernández</h1>
+        <p class="subtitulo">Desarrollador Frontend en formación</p>
+
+        <div class="contenedor-botones">
+            <a href="https://drive.google.com/uc?export=download&id=1z8gkdvdEMhgzpHzeh8Rxo2b3yuy4tCp8" class="boton" target="_blank">Descargar CV</a>
+            <button class="boton" onclick="scrollToSkills()">Ver Portfolio</button>
+        </div>
+    </header>
+
+    <section class="sobre-mi">
+        <img src="Imagenes/foto-perfil.jpg" alt="Eusebio Fernández">
+        <div class="texto-sobre-mi">
+            <h2>Sobre mí</h2>
+            <p>Hola, soy Eusebio, un apasionado desarrollador frontend en formación. Me encanta crear experiencias web
+                que sean no solo funcionales, sino también atractivas visualmente. Actualmente estoy aprendiendo y
+                mejorando mis habilidades en HTML, CSS y JavaScript, y me entusiasma trabajar en proyectos desafiantes
+                que me permitan seguir creciendo.</p>
+        </div>
+    </section>
+
+    <hr>
+
+    <section class="skills" id="seccion-skills">
+        <h2>Mis Habilidades</h2>
+
+        <div class="contenedor-skills">
+            <div class="categoria">
+                <h3>Frontend</h3>
+                <div class="iconos-skills">
+                    <div class="icono">
+                        <img src="Imagenes/html-5.png" alt="html5">
+                    </div>
+                    <div class="icono">
+                        <img src="Imagenes/css-3.png" alt="css3">
+                    </div>
+                    <div class="icono">
+                        <img src="Imagenes/js.png" alt="javascript">
+                    </div>
+                </div>
+            </div>
+
+            <div class="categoria">
+                <h3>Backend</h3>
+                <div class="iconos-skills">
+                    <div class="icono">
+                        <img src="Imagenes/java.png" alt="java">
+                    </div>
+                    <div class="icono">
+                        <img src="Imagenes/Kotlin.png" alt="kotlin">
+                    </div>
+                    <div class="icono">
+                        <img src="Imagenes/mysql.png" alt="mysql">
+                    </div>
+                </div>
+            </div>
+
+            <div class="categoria">
+                <h3>Frameworks</h3>
+                <div class="iconos-skills">
+                    <div class="icono">
+                        <img src="Imagenes/bootstrap.png" alt="bootstrap">
+                    </div>
+                </div>
+            </div>
+
+            <div class="categoria">
+                <h3>Software</h3>
+                <div class="iconos-skills">
+                    <div class="icono">
+                        <img src="Imagenes/vs-code.png" alt="visualstudio">
+                    </div>
+                    <div class="icono">
+                        <img src="Imagenes/IntelliJ IDEA.png" alt="intellij">
+                    </div>
+                    <div class="icono">
+                        <img src="Imagenes/mysqlworkbench.png" alt="mysqlworkbench">
+                    </div>
+                    <div class="icono">
+                        <img src="Imagenes/android-studio.png" alt="androidstudio">
+                    </div>
+                </div>
+            </div>
+
+            <div class="categoria">
+                <h3>Herramientas</h3>
+                <div class="iconos-skills">
+                    <div class="icono">
+                        <img src="Imagenes/github.png" alt="github">
+                    </div>
+                    <div class="icono">
+                        <img src="Imagenes/gitlab.png" alt="gitlab">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        function scrollToSkills() {
+            document.getElementById('seccion-skills').scrollIntoView({ behavior: 'smooth' });
+        }
+    </script>
+</body>
+
+</html>
