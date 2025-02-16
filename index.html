@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi Portfolio</title>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -17,7 +20,8 @@
         <p class="subtitulo">Desarrollador Frontend en formación</p>
 
         <div class="contenedor-botones">
-            <a href="https://drive.google.com/uc?export=download&id=1z8gkdvdEMhgzpHzeh8Rxo2b3yuy4tCp8" class="boton" target="_blank">Descargar CV</a>
+            <a href="https://drive.google.com/uc?export=download&id=1z8gkdvdEMhgzpHzeh8Rxo2b3yuy4tCp8" class="boton"
+                target="_blank">Descargar CV</a>
             <button class="boton" onclick="scrollToSkills()">Ver Portfolio</button>
         </div>
     </header>
@@ -104,6 +108,66 @@
                     </div>
                     <div class="icono">
                         <img src="Imagenes/gitlab.png" alt="gitlab">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="seccion-proyectos" class="py-5">
+        <div class="container-fluid px-5">
+            <h2 class="text-center fw-bold mb-5">Mis Proyectos</h2>
+
+            <div class="row gx-xxl-5 gy-5 justify-content-center">
+
+                <div class="col-lg-4 col-md-5">
+                    <div class="tarjeta-proyecto project-card text-center p-4">
+                        <img src="Imagenes/proyecto-calculadora.png" alt="Proyecto 1" class="img-fluid mb-4">
+                        <h3 class="fw-bold mb-3">Calculadora Interactiva</h3>
+                        <p>Calculadora web interactiva que permite realizar operaciones matemáticas
+                            básicas como suma, resta, multiplicación y división. Desarrollada con HTML, CSS y
+                            JavaScript, también incluye un modo oscuro que se puede activar para mejorar la experiencia
+                            de usuario.</p>
+                        <p>Tecnologías usadas:</p>
+                        <p>
+                            <span class="badge bg-danger">HTML5</span>
+                            <span class="badge bg-primary">CSS3</span>
+                            <span class="badge bg-warning text-dark">JavaScript</span>
+                        </p>
+                        <a href="https://github.com/Usefer97/calculadora-interactiva" class="btn btn-dark">GitHub</a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-5">
+                    <div class="tarjeta-proyecto project-card text-center p-4">
+                        <img src="Imagenes/proyecto-webStarWars.jpg" alt="Proyecto 2" class="img-fluid mb-4">
+                        <h3 class="fw-bold mb-3">Web Universo StarWars</h3>
+                        <p>Página web inspirada en el universo de Star Wars. Incluye una galería lateral, momentos
+                            icónicos de la saga y un formulario de contacto. Durante su desarrollo hice uso de HTML,
+                            CSS y Flexbox, con este página busco porporcionar una forma divertida de explorar contenido
+                            relacionado con Star Wars.</p>
+                        <p>Tecnologías usadas:</p>
+                        <p>
+                            <span class="badge bg-danger">HTML5</span>
+                            <span class="badge bg-primary">CSS3</span>
+                        </p>
+                        <a href="https://github.com/Usefer97/web-star-wars" class="btn btn-dark">GitHub</a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-5">
+                    <div class="tarjeta-proyecto project-card text-center p-4">
+                        <img src="Imagenes/proyecto-portfolio.png" alt="Proyecto 3" class="img-fluid mb-4">
+                        <h3 class="fw-bold mb-3">Portfolio Personal</h3>
+                        <p>Desarrollé mi portafolio personal donde presento mis proyectos y habilidades como desarrollador, con una interfaz limpia y moderna que se adapta a diferentes tamaños de pantalla busco reflejar mi estilo de trabajo y aprendizaje en desarrollo web. Para su creación hice uso de HTML, CSS, Bootstrap y JavaScript.</p>
+                        <p>Tecnologías usadas:</p>
+                        <p>
+                            <span class="badge bg-danger">HTML5</span>
+                            <span class="badge bg-primary">CSS3</span>
+                            <span class="badge bg-info">Bootstrap</span>
+                            <span class="badge bg-warning text-dark">JavaScript</span>
+                        </p>
+                        <a href="https://github.com/Usefer97/portfolio" class="btn btn-dark">GitHub</a>
                     </div>
                 </div>
             </div>

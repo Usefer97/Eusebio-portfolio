@@ -130,6 +130,17 @@ hr {
     border-radius: 10px;
 }
 
+.tarjeta-proyecto img {
+    border-radius: 10px;
+    width: 100%;
+    max-width: 700px;
+    max-height: 350px;
+}
+
+.tarjeta-proyecto img:hover {
+    box-shadow: 0px 1px 20px rgba(255, 255, 255, 0.068);
+}
+
 @media (max-width: 768px) {
     .sobre-mi {
         flex-direction: column;
@@ -145,5 +156,14 @@ hr {
     .contenedor-skills {
         flex-direction: column;
         gap: 15px;
+    }
+
+    .tarjeta-proyecto img {
+        width: 100%;
+        height: auto;
+    }
+
+    .tarjeta-proyecto {
+        padding: 10px;
     }
 }
