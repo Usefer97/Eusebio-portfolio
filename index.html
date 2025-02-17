@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi Portfolio</title>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -14,26 +16,27 @@
     <header class="inicio">
         <p class="subtitulo">Hola 👋, soy</p>
         <h1 class="titulo-principal">Eusebio Fernández</h1>
-        <p class="subtitulo">Desarrollador Frontend en formación</p>
+        <p class="subtitulo">Desarrollador de Aplicaciones Multiplataforma, apasionado por la tecnología
+            y el desarrollo web, aprendiendo y creando proyectos 🚀</p>
 
         <div class="contenedor-botones">
-            <a href="https://drive.google.com/uc?export=download&id=1z8gkdvdEMhgzpHzeh8Rxo2b3yuy4tCp8" class="boton" target="_blank">Descargar CV</a>
+            <a href="https://drive.google.com/uc?export=download&id=1z8gkdvdEMhgzpHzeh8Rxo2b3yuy4tCp8" class="boton"
+                target="_blank">Descargar CV</a>
             <button class="boton" onclick="scrollToSkills()">Ver Portfolio</button>
         </div>
     </header>
 
-    <section class="sobre-mi">
+    <section class="sobre-mi" id="seccion-sobre-mi">
         <img src="Imagenes/foto-perfil.jpg" alt="Eusebio Fernández">
         <div class="texto-sobre-mi">
             <h2>Sobre mí</h2>
-            <p>Hola, soy Eusebio, un apasionado desarrollador frontend en formación. Me encanta crear experiencias web
-                que sean no solo funcionales, sino también atractivas visualmente. Actualmente estoy aprendiendo y
-                mejorando mis habilidades en HTML, CSS y JavaScript, y me entusiasma trabajar en proyectos desafiantes
-                que me permitan seguir creciendo.</p>
+            <p>Hola, soy Eusebio, estudiante de desarrollo de aplicaciones multiplataforma y un apasionado por el
+                desarrollo frontend. Me encanta crear experiencias web que sean no solo funcionales, sino también
+                atractivas visualmente. Actualmente estoy aprendiendo y mejorando mis habilidades en HTML, CSS y
+                JavaScript. Me entusiasma trabajar en proyectos desafiantes que me permitan aprender nuevas
+                tecnologías y seguir creciendo como programador.</p>
         </div>
     </section>
-
-    <hr>
 
     <section class="skills" id="seccion-skills">
         <h2>Mis Habilidades</h2>
@@ -51,6 +54,7 @@
                     <div class="icono">
                         <img src="Imagenes/js.png" alt="javascript">
                     </div>
+
                 </div>
             </div>
 
@@ -60,9 +64,21 @@
                     <div class="icono">
                         <img src="Imagenes/java.png" alt="java">
                     </div>
+                </div>
+            </div>
+
+            <div class="categoria">
+                <h3>Desarrollo Móvil</h3>
+                <div class="iconos-skills">
                     <div class="icono">
                         <img src="Imagenes/Kotlin.png" alt="kotlin">
                     </div>
+                </div>
+            </div>
+
+            <div class="categoria">
+                <h3>Bases de Datos</h3>
+                <div class="iconos-skills">
                     <div class="icono">
                         <img src="Imagenes/mysql.png" alt="mysql">
                     </div>
@@ -110,9 +126,98 @@
         </div>
     </section>
 
+    <section id="seccion-proyectos" class="py-5">
+        <div class="container-fluid px-5">
+            <h2 class="text-center fw-bold mb-5">Mis Proyectos</h2>
+
+            <div class="row gx-xxl-5 gy-5 justify-content-center">
+
+                <div class="col-lg-4 col-md-5">
+                    <div class="tarjeta-proyecto project-card text-center p-4">
+                        <img src="Imagenes/proyecto-calculadora.png" alt="Proyecto 1" class="img-fluid mb-4">
+                        <h3 class="fw-bold mb-3">Calculadora Interactiva</h3>
+                        <p>Calculadora web interactiva que permite realizar operaciones matemáticas
+                            básicas como suma, resta, multiplicación y división. Desarrollada con HTML, CSS y
+                            JavaScript, también incluye un modo oscuro que se puede activar para mejorar la experiencia
+                            de usuario.</p>
+                        <p>Tecnologías usadas:</p>
+                        <p>
+                            <span class="badge bg-danger">HTML5</span>
+                            <span class="badge bg-primary">CSS3</span>
+                            <span class="badge bg-warning text-dark">JavaScript</span>
+                        </p>
+                        <a href="https://github.com/Usefer97/calculadora-interactiva" class="btn btn-light">Ver
+                            repositorio</a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-5">
+                    <div class="tarjeta-proyecto project-card text-center p-4">
+                        <img src="Imagenes/proyecto-webStarWars.jpg" alt="Proyecto 2" class="img-fluid mb-4">
+                        <h3 class="fw-bold mb-3">Web Universo StarWars</h3>
+                        <p>Página web inspirada en el universo de Star Wars. Incluye una galería lateral, momentos
+                            icónicos de la saga y un formulario de contacto. Durante su desarrollo hice uso de HTML,
+                            CSS y Flexbox, con este página busco porporcionar una forma divertida de explorar contenido
+                            relacionado con Star Wars.</p>
+                        <p>Tecnologías usadas:</p>
+                        <p>
+                            <span class="badge bg-danger">HTML5</span>
+                            <span class="badge bg-primary">CSS3</span>
+                        </p>
+                        <a href="https://github.com/Usefer97/web-star-wars" class="btn btn-light">Ver repositorio</a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-5">
+                    <div class="tarjeta-proyecto project-card text-center p-4">
+                        <img src="Imagenes/proyecto-portfolio.png" alt="Proyecto 3" class="img-fluid mb-4">
+                        <h3 class="fw-bold mb-3">Portfolio Personal</h3>
+                        <p>Desarrollé mi portafolio personal donde presento mis proyectos y habilidades como
+                            desarrollador, con una interfaz limpia y moderna que se adapta a diferentes tamaños de
+                            pantalla busco reflejar mi estilo de trabajo y aprendizaje en desarrollo web. Para su
+                            creación hice uso de HTML, CSS, Bootstrap y JavaScript.</p>
+                        <p>Tecnologías usadas:</p>
+                        <p>
+                            <span class="badge bg-danger">HTML5</span>
+                            <span class="badge bg-primary">CSS3</span>
+                            <span class="badge bg-info">Bootstrap</span>
+                            <span class="badge bg-warning text-dark">JavaScript</span>
+                        </p>
+                        <a href="https://github.com/Usefer97/portfolio" class="btn btn-light">Ver repositorio</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="seccion-contacto">
+        <h2>Contacto</h2>
+        <p>¡No dudes en contactarme a través de cualquiera de los siguientes medios!</p>
+        <div class="contenedor-contacto">
+            <div class="contacto">
+                <a href="mailto:eusebiofernesp@gmail.com" class="boton-contacto">
+                    <img src="Imagenes/gmail.png" alt="Correo electrónico">
+                    eusebiofernesp@gmail.com
+                </a>
+            </div>
+            <div class="contacto">
+                <a href="https://github.com/Usefer97" class="boton-contacto">
+                    <img src="Imagenes/github.png" alt="GitHub">
+                    GitHub
+                </a>
+            </div>
+            <div class="contacto">
+                <a href="https://www.linkedin.com/in/eusebiofernandez/" class="boton-contacto">
+                    <img src="Imagenes/linkedin.png" alt="LinkedIn">
+                    LinkedIn
+                </a>
+            </div>
+        </div>
+    </section>
+
     <script>
         function scrollToSkills() {
-            document.getElementById('seccion-skills').scrollIntoView({ behavior: 'smooth' });
+            document.getElementById('seccion-sobre-mi').scrollIntoView({ behavior: 'smooth' });
         }
     </script>
 </body>
