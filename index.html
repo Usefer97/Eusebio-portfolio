@@ -4,20 +4,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Portfolio</title>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-
     <header class="inicio">
         <p class="subtitulo">Hola 👋, soy</p>
         <h1 class="titulo-principal">Eusebio Fernández</h1>
-        <p class="subtitulo">Desarrollador de Aplicaciones Multiplataforma, apasionado por la tecnología
-            y el desarrollo web, aprendiendo y creando proyectos 🚀</p>
+        <p class="subtitulo">Estudiante de Desarrollo de Aplicaciones Multiplataforma, apasionado por la creación
+            experiencias de usuario interactivas y eficientes 🚀</p>
 
         <div class="contenedor-botones">
             <a href="https://drive.google.com/uc?export=download&id=1z8gkdvdEMhgzpHzeh8Rxo2b3yuy4tCp8" class="boton"
@@ -26,199 +24,301 @@
         </div>
     </header>
 
-    <section class="sobre-mi" id="seccion-sobre-mi">
-        <img src="Imagenes/foto-perfil.jpg" alt="Eusebio Fernández">
-        <div class="texto-sobre-mi">
-            <h2>Sobre mí</h2>
-            <p>Hola, soy Eusebio, estudiante de desarrollo de aplicaciones multiplataforma y un apasionado por el
-                desarrollo frontend. Me encanta crear experiencias web que sean no solo funcionales, sino también
-                atractivas visualmente. Actualmente estoy aprendiendo y mejorando mis habilidades en HTML, CSS y
-                JavaScript. Me entusiasma trabajar en proyectos desafiantes que me permitan aprender nuevas
-                tecnologías y seguir creciendo como programador.</p>
-        </div>
-    </section>
-
-    <section class="skills" id="seccion-skills">
-        <h2>Mis Habilidades</h2>
-
-        <div class="contenedor-skills">
-            <div class="categoria">
-                <h3>Frontend</h3>
-                <div class="iconos-skills">
-                    <div class="icono">
-                        <img src="Imagenes/html-5.png" alt="html5">
-                    </div>
-                    <div class="icono">
-                        <img src="Imagenes/css-3.png" alt="css3">
-                    </div>
-                    <div class="icono">
-                        <img src="Imagenes/js.png" alt="javascript">
-                    </div>
-
-                </div>
+    <section class="sobre-mi" id="sobre-mi">
+        <div class="contenido">
+            <div class="imagen-perfil">
+                <img src="Imagenes/foto-perfil.jpg" alt="Foto de perfil">
             </div>
-
-            <div class="categoria">
-                <h3>Backend</h3>
-                <div class="iconos-skills">
-                    <div class="icono">
-                        <img src="Imagenes/java.png" alt="java">
-                    </div>
-                </div>
-            </div>
-
-            <div class="categoria">
-                <h3>Desarrollo Móvil</h3>
-                <div class="iconos-skills">
-                    <div class="icono">
-                        <img src="Imagenes/Kotlin.png" alt="kotlin">
-                    </div>
-                </div>
-            </div>
-
-            <div class="categoria">
-                <h3>Bases de Datos</h3>
-                <div class="iconos-skills">
-                    <div class="icono">
-                        <img src="Imagenes/mysql.png" alt="mysql">
-                    </div>
-                </div>
-            </div>
-
-            <div class="categoria">
-                <h3>Frameworks</h3>
-                <div class="iconos-skills">
-                    <div class="icono">
-                        <img src="Imagenes/bootstrap.png" alt="bootstrap">
-                    </div>
-                </div>
-            </div>
-
-            <div class="categoria">
-                <h3>Software</h3>
-                <div class="iconos-skills">
-                    <div class="icono">
-                        <img src="Imagenes/vs-code.png" alt="visualstudio">
-                    </div>
-                    <div class="icono">
-                        <img src="Imagenes/IntelliJ IDEA.png" alt="intellij">
-                    </div>
-                    <div class="icono">
-                        <img src="Imagenes/mysqlworkbench.png" alt="mysqlworkbench">
-                    </div>
-                    <div class="icono">
-                        <img src="Imagenes/android-studio.png" alt="androidstudio">
-                    </div>
-                </div>
-            </div>
-
-            <div class="categoria">
-                <h3>Herramientas</h3>
-                <div class="iconos-skills">
-                    <div class="icono">
-                        <img src="Imagenes/github.png" alt="github">
-                    </div>
-                    <div class="icono">
-                        <img src="Imagenes/gitlab.png" alt="gitlab">
-                    </div>
-                </div>
+            <div class="informacion">
+                <h3>Hola, soy Eusebio</h3>
+                <p class="descripcion">
+                    Estudiante de Desarrollo de Aplicaciones Multiplataforma. Me apasiona la programación, y la creación
+                    experiencias de usuario interactivas y eficientes. A lo largo de mi formación, he trabajado con
+                    tecnologías clave en el front con <strong>HTML, CSS, JavaScript</strong>, como en el back con
+                    <strong>Java</strong>, y sigo en
+                    constante aprendizaje sobre nuevas herramientas y metodologías.
+                </p>
+                <p class="descripcion">
+                    Mi objetivo es seguir mejorando mis habilidades como <strong>desarrollador</strong> y colaborar en
+                    proyectos innovadores que mejoren la experiencia de los usuarios.
+                </p>
             </div>
         </div>
     </section>
+
+    <hr style="width: 40%; margin: auto;">
+
+    <section class="skills-container">
+        <h2 class="skills-title">Skills</h2>
+        <p class="skills-description">
+            Tengo experiencia con diferentes lenguajes y frameworks que demuestran sobretodo mis habilidades y
+            conocimientos en la creación de aplicaciones web modernas y escalables.
+        </p>
+        <div class="skills-card-container">
+            <div class="skill-card">
+                <img src="Imagenes/html-5.png" alt="JavaScript">
+                <p>HTML5</p>
+            </div>
+            <div class="skill-card">
+                <img src="Imagenes/css-3.png" alt="React Js">
+                <p>CSS3</p>
+            </div>
+            <div class="skill-card">
+                <img src="Imagenes/js.png" alt="TypeScript">
+                <p>JavaScript</p>
+            </div>
+            <div class="skill-card">
+                <img src="Imagenes/bootstrap.png" alt="Node Js">
+                <p>Bootstrap</p>
+            </div>
+            <div class="skill-card">
+                <img src="Imagenes/java.png" alt="HTML5">
+                <p>Java</p>
+            </div>
+            <div class="skill-card">
+                <img src="Imagenes/mysql.png" alt="CSS3">
+                <p>MySQL</p>
+            </div>
+            <div class="skill-card">
+                <img src="Imagenes/Figma.png" alt="Sass">
+                <p>Figma</p>
+            </div>
+        </div>
+    </section>
+
+    <hr style="width: 60%; margin: auto;">
 
     <section id="seccion-proyectos" class="py-5">
         <div class="container-fluid px-5">
-            <h2 class="text-center fw-bold mb-5">Mis Proyectos</h2>
+            <h2 class="proyectos-title">Proyectos Recientes</h2>
 
-            <div class="row gx-xxl-5 gy-5 justify-content-center">
+            <p class="proyectos-descripcion">
+                Algunos de mis proyectos desarrollados durante mi formacion y proyectos personales. Te invito a mirar
+                sus respectivos
+                repositorios y probar algunas de mis webs.
+            </p>
 
-                <div class="col-lg-4 col-md-5">
-                    <div class="tarjeta-proyecto project-card text-center p-4">
-                        <img src="Imagenes/proyecto-calculadora.png" alt="Proyecto 1" class="img-fluid mb-4">
-                        <h3 class="fw-bold mb-3">Calculadora Interactiva</h3>
-                        <p>Calculadora web interactiva que permite realizar operaciones matemáticas
-                            básicas como suma, resta, multiplicación y división. Desarrollada con HTML, CSS y
-                            JavaScript, también incluye un modo oscuro que se puede activar para mejorar la experiencia
-                            de usuario.</p>
-                        <p>Tecnologías usadas:</p>
-                        <p>
-                            <span class="badge bg-danger">HTML5</span>
-                            <span class="badge bg-primary">CSS3</span>
-                            <span class="badge bg-warning text-dark">JavaScript</span>
-                        </p>
-                        <a href="https://github.com/Usefer97/calculadora-interactiva" class="btn btn-light">Ver
-                            repositorio</a>
+            <h3 class="categoria-proyecto">Fronted</h3>
+
+            <div class="row justify-content-center">
+
+                <div class="col">
+                    <div class="card shadow-sm border-0 rounded-3">
+                        <img src="Imagenes/proyecto-portfolio.png" class="card-img-top" alt="Proyecto 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Portfolio Personal</h5>
+                            <p class="card-text">
+                                <span class="badge bg-danger">HTML5</span>
+                                <span class="badge bg-primary">CSS3</span>
+                                <span class="badge bg-info">Bootstrap</span>
+                                <span class="badge bg-warning text-dark">JavaScript</span>
+                            </p>
+
+                        </div>
+
+                        <div class="card-description">
+                            <p>Este es un proyecto personal donde presento mis habilidades y trabajo en el desarrollo de
+                                una página web moderna utilizando HTML, CSS, Bootstrap y JavaScript.</p>
+                            <div class="d-flex justify-content-center">
+                                <a href="https://github.com/Usefer97/Eusebio-portfolio" class="btn-repositorio">Ver
+                                    repositorio</a>
+                                <a href="https://usefer97.github.io/Eusebio-portfolio/" class="btn-web">Ver web</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-5">
-                    <div class="tarjeta-proyecto project-card text-center p-4">
-                        <img src="Imagenes/proyecto-webStarWars.jpg" alt="Proyecto 2" class="img-fluid mb-4">
-                        <h3 class="fw-bold mb-3">Web Universo StarWars</h3>
-                        <p>Página web inspirada en el universo de Star Wars. Incluye una galería lateral, momentos
-                            icónicos de la saga y un formulario de contacto. Durante su desarrollo hice uso de HTML,
-                            CSS y Flexbox, con este página busco porporcionar una forma divertida de explorar contenido
-                            relacionado con Star Wars.</p>
-                        <p>Tecnologías usadas:</p>
-                        <p>
-                            <span class="badge bg-danger">HTML5</span>
-                            <span class="badge bg-primary">CSS3</span>
-                        </p>
-                        <a href="https://github.com/Usefer97/web-star-wars" class="btn btn-light">Ver repositorio</a>
+                <div class="col">
+                    <div class="card shadow-sm border-0 rounded-3">
+                        <img src="Imagenes/proyecto-calculadora.png" class="card-img-top" alt="Proyecto 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Calculadora Interactiva con JS</h5>
+                            <p class="card-text">
+                                <span class="badge bg-danger">HTML5</span>
+                                <span class="badge bg-primary">CSS3</span>
+                                <span class="badge bg-warning text-dark">JavaScript</span>
+                            </p>
+
+                        </div>
+
+                        <div class="card-description">
+                            <p>Calculadora web interactiva que permite realizar operaciones matemáticas
+                                básicas como suma, resta, multiplicación y división. Desarrollada con HTML, CSS y
+                                JavaScript, también incluye un modo oscuro que se puede activar para mejorar la
+                                experiencia de usuario.</p>
+                            <div class="d-flex justify-content-center">
+                                <a href="https://github.com/Usefer97/calculadora-interactiva"
+                                    class="btn-repositorio">Ver repositorio</a>
+                                <a href="https://usefer97.github.io/calculadora-interactiva/" class="btn-web">Ver
+                                    web</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-5">
-                    <div class="tarjeta-proyecto project-card text-center p-4">
-                        <img src="Imagenes/proyecto-portfolio.png" alt="Proyecto 3" class="img-fluid mb-4">
-                        <h3 class="fw-bold mb-3">Portfolio Personal</h3>
-                        <p>Desarrollé mi portafolio personal donde presento mis proyectos y habilidades como
-                            desarrollador, con una interfaz limpia y moderna que se adapta a diferentes tamaños de
-                            pantalla busco reflejar mi estilo de trabajo y aprendizaje en desarrollo web. Para su
-                            creación hice uso de HTML, CSS, Bootstrap y JavaScript.</p>
-                        <p>Tecnologías usadas:</p>
-                        <p>
-                            <span class="badge bg-danger">HTML5</span>
-                            <span class="badge bg-primary">CSS3</span>
-                            <span class="badge bg-info">Bootstrap</span>
-                            <span class="badge bg-warning text-dark">JavaScript</span>
-                        </p>
-                        <a href="https://github.com/Usefer97/portfolio" class="btn btn-light">Ver repositorio</a>
+                <div class="col">
+                    <div class="card shadow-sm border-0 rounded-3">
+                        <img src="Imagenes/proyecto-webMarvel.jpg" class="card-img-top" alt="Proyecto 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Superhéroes con JSON y API</h5>
+                            <p class="card-text">
+                                <span class="badge bg-danger">HTML5</span>
+                                <span class="badge bg-primary">CSS3</span>
+                                <span class="badge bg-info">Bootstrap</span>
+                                <span class="badge bg-warning text-dark">JavaScript</span>
+                            </p>
+                        </div>
+
+                        <div class="card-description">
+                            <p>Web interactiva que muestra información sobre Marvel, DC y Star
+                                Wars, cargando datos desde un archivo JSON y una API externa. Desarrollada con HTML, CSS
+                                y JavaScript. La web cuenta con un diseño responsive para garantizar una navegación
+                                fluida en cualquier dispositivo.</p>
+                            <div class="d-flex justify-content-center">
+                                <a href="https://github.com/Usefer97/heroes-and-galaxies" class="btn-repositorio">Ver
+                                    repositorio</a>
+                                <a href="https://usefer97.github.io/heroes-and-galaxies/" class="btn-web">Ver web</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <h3 class="categoria-proyecto">Backend</h3>
+
+            <div class="row justify-content-center">
+                <div class="col">
+                    <div class="card shadow-sm border-0 rounded-3">
+                        <img src="Imagenes/proyecto-combateRPG.jpg" class="card-img-top" alt="Proyecto 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Sistema Combate RPG</h5>
+                            <p class="card-text">
+                                <span class="badge bg-primary">JAVA</span>
+                                <span class="badge bg-warning text-dark">POO</span>
+                            </p>
+
+                        </div>
+
+                        <div class="card-description">
+                            <p>En este proyecto creo un sitema de combate por turnos en el que aplico porbabilidades y
+                                efectos de estado, ademas se utilizan diferentes clases y herencias.</p>
+                            <div class="d-flex justify-content-center">
+                                <a href="https://github.com/Usefer97/sistema-combate-rpg" class="btn-repositorio">Ver
+                                    repositorio</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card shadow-sm border-0 rounded-3">
+                        <img src="Imagenes/proyecto-gestorInventario.jpg" class="card-img-top" alt="Proyecto 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Gestor Inventario en Java</h5>
+                            <p class="card-text">
+                                <span class="badge bg-primary">JAVA</span>
+                                <span class="badge bg-danger">POO</span>
+                                <span class="badge bg-warning text-dark">Manejo de excepciones</span>
+                            </p>
+
+                        </div>
+
+                        <div class="card-description">
+                            <p>Aplicación desarrollada en Java que permite administrar productos en un inventario,
+                                aplicar descuentos por categoría y gestionar promociones con fechas específicas. Se hace
+                                uso de POO, manejo de excepciones personalizadas, interfaces y clases abstractas.
+                                Requiere Java 11 o superior para su ejecución.</p>
+                            <div class="d-flex justify-content-center">
+                                <a href="https://github.com/Usefer97/GestorInventario" class="btn-repositorio">Ver
+                                    repositorio</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card shadow-sm border-0 rounded-3">
+                        <img src="Imagenes/proyecto-desarrollo.jpg" class="card-img-top" alt="Proyecto 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Juego Trivial en Java</h5>
+                            <p class="card-text">
+                                <span class="badge bg-primary">JAVA</span>
+                                <span class="badge bg-danger">POO</span>
+                            </p>
+                        </div>
+
+                        <div class="card-description">
+                            <p>En desarrollo... Juego de Trivial en Java que permite a los jugadores responder preguntas
+                                con opciones múltiples, acumulando puntos por cada respuesta correcta. Incluye un
+                                sistema de registro e inicio de sesión para jugadores y administradores. Las preguntas
+                                se cargan desde un archivo de texto, y las partidas se guardan en un historial. Implementa POO, manejo de archivos y herencia.</p>
+                            <div class="d-flex justify-content-center">
+                                <a href="" class="btn-repositorio">En desarrollo</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="seccion-contacto">
-        <h2>Contacto</h2>
-        <p>¡No dudes en contactarme a través de cualquiera de los siguientes medios!</p>
-        <div class="contenedor-contacto">
-            <div class="contacto">
-                <a href="mailto:eusebiofernesp@gmail.com" class="boton-contacto">
+    <hr style="width: 80%; margin: auto;">
+
+    <footer id="seccion-contacto">
+        <p class="contacto-descripcion">¡No dudes en contactarme a través de cualquiera de los siguientes medios!</p>
+        <div class="contact-container">
+            <a href="mailto:eusebiofernesp@gmail.com" class="contact-item">
+                <div class="contact-icon">
                     <img src="Imagenes/gmail.png" alt="Correo electrónico">
-                    eusebiofernesp@gmail.com
-                </a>
-            </div>
-            <div class="contacto">
-                <a href="https://github.com/Usefer97" class="boton-contacto">
+                </div>
+                <span class="contact-text">eusebiofernesp@gmail.com</span>
+            </a>
+            <a href="https://github.com/Usefer97" class="contact-item">
+                <div class="contact-icon">
                     <img src="Imagenes/github.png" alt="GitHub">
-                    GitHub
-                </a>
-            </div>
-            <div class="contacto">
-                <a href="https://www.linkedin.com/in/eusebio-fernandez/" class="boton-contacto">
+                </div>
+                <span class="contact-text">GitHub</span>
+            </a>
+            <a href="https://www.linkedin.com/in/eusebio-fernandez/" class="contact-item">
+                <div class="contact-icon">
                     <img src="Imagenes/linkedin.png" alt="LinkedIn">
-                    LinkedIn
-                </a>
-            </div>
+                </div>
+                <span class="contact-text">LinkedIn</span>
+            </a>
         </div>
-    </section>
+    </footer>
 
     <script>
         function scrollToSkills() {
-            document.getElementById('seccion-sobre-mi').scrollIntoView({ behavior: 'smooth' });
+            const skillsSection = document.getElementById("sobre-mi");
+            window.scrollTo({
+                top: skillsSection.offsetTop,
+                behavior: "smooth"
+            });
         }
+
+        window.onload = function () {
+            window.scrollTo(0, 0);
+        }
+
+        const botonModoOscuro = document.getElementById("modo-oscuro");
+
+        if (localStorage.getItem("modoOscuro") === "true") {
+            document.body.classList.add("modo-oscuro");
+            botonModoOscuro.textContent = "🌞 Modo Claro";
+        }
+
+        botonModoOscuro.addEventListener("click", function () {
+            document.body.classList.toggle("modo-oscuro");
+
+            if (document.body.classList.contains("modo-oscuro")) {
+                botonModoOscuro.textContent = "🌞 Modo Claro";
+                localStorage.setItem("modoOscuro", "true");
+            } else {
+                botonModoOscuro.textContent = "🌙 Modo Oscuro";
+                localStorage.setItem("modoOscuro", "false");
+            }
+        });
     </script>
 </body>
 
